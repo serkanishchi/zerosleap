@@ -1,0 +1,9 @@
+setuptools~=50.3.0
+PySide2~=5.15.1
+opencv-python~=4.4.0.42
+numpy~=1.18.5
+tensorflow~=2.3.0
+pyzmq~=19.0.2
+filterpy~=1.4.5
+scipy~=1.4.1
+matplotlib~=3.3.2

@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+.pytest_cache
+.idea
+
+venv
+
+resources/keras_model.h5
+resources/many_files.clip.mp4
+test.clip.15s.mp4
