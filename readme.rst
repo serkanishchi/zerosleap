@@ -30,11 +30,15 @@ Installation and Setup
 
 git clone https://github.com/serkanishchi/zerosleap.git
 
-virtualenv --python=python3.8 venv
+python3.8 -m venv env
 
-pip3 build.py install
+source env/bin/activate
 
-curl https://www.dropbox.com/s/kuyqdopree4fh0r/best_model.h5?dl=1 --output rsources/keras_model.h5
+pip install requirements
+
+python setup.py install
+
+wget https://www.dropbox.com/s/kuyqdopree4fh0r/best_model.h5?dl=1 --output rsources/keras_model.h5
 
 
 
