@@ -27,18 +27,33 @@ Task B: Implement a multi-object tracker to assign the predicted centroids to th
 
 Installation and Setup
 =========================================
+Clone the repository
 
-git clone https://github.com/serkanishchi/zerosleap.git
+- git clone https://github.com/serkanishchi/zerosleap.git
 
-python3.8 -m venv env
+- cd zerosleap
 
-source env/bin/activate
+Create Virtual Env
 
-pip install requirements
+- python3.8 -m venv env
 
-python setup.py install
+Activate
 
-wget https://www.dropbox.com/s/kuyqdopree4fh0r/best_model.h5?dl=1 --output rsources/keras_model.h5
+- source env/bin/activate
+
+Install requirements
+
+- pip install -r requirements.txt
+
+Setup package
+
+- python setup.py install
+
+Download Pretrained Model
+
+- https://www.dropbox.com/s/kuyqdopree4fh0r/best_model.h5?dl=1
+
+- Put the model under the "zerosleap/resources" folder with name of keras_model.h5
 
 
 
