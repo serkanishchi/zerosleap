@@ -30,7 +30,7 @@ Installation and Setup
 
 git clone https://github.com/serkanishchi/zerosleap.git
 
-pip install -r requirements.txt
+virtualenv --python=python3.8 venv
 
 pip3 build.py install
 
