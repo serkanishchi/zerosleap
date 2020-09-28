@@ -28,3 +28,11 @@ Task B: Implement a multi-object tracker to assign the predicted centroids to th
 Installation and Setup
 =========================================
 
+git clone https://github.com/serkanishchi/zerosleap.git
+
+pip install -r requirements.txt
+
+curl https://www.dropbox.com/s/kuyqdopree4fh0r/best_model.h5?dl=1 --output rsources/keras_model.h5
+
+
+
