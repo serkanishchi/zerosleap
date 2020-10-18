@@ -1,13 +1,10 @@
-Interview Question (Serkan ISCI)
+ZeroSleap
 =========================================
 
 .. image:: resources/app.png
     :width: 800px
 
 |
-
-This application is developed for the purpose of interview question of the Research Software Engineer position in the
-Murthy Lab at Princeton University.
 
 Task A: Build s server that can interactively perform model inference.
 
